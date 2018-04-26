@@ -88,7 +88,7 @@
 		72CAADC0209184B70079E641 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAADBF209184B70079E641 /* libstdc++.tbd */; };
 		72CAADC2209184BE0079E641 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAADC1209184BE0079E641 /* libz.tbd */; };
 		72CAADC4209184DC0079E641 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAADC3209184DC0079E641 /* libbz2.tbd */; };
-		72CAAE0F2091E3FF0079E641 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAAE0E2091E3FF0079E641 /* IJKMediaFramework.framework */; };
+		72CAAE102091E5220079E641 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAADC5209185290079E641 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,7 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72CAAE0F2091E3FF0079E641 /* IJKMediaFramework.framework in Frameworks */,
+				72CAAE102091E5220079E641 /* IJKMediaFramework.framework in Frameworks */,
 				72CAADC4209184DC0079E641 /* libbz2.tbd in Frameworks */,
 				72CAADC2209184BE0079E641 /* libz.tbd in Frameworks */,
 				72CAADC0209184B70079E641 /* libstdc++.tbd in Frameworks */,
@@ -244,7 +244,6 @@
 		72CAAD052091803C0079E641 = {
 			isa = PBXGroup;
 			children = (
-				72CAAE0D2091E3BF0079E641 /* Lib */,
 				72CAAD2C209182FF0079E641 /* Resources */,
 				72CAAD2A209182640079E641 /* ABFPlayerKit.podspec */,
 				72CAAD112091803C0079E641 /* Sources */,
@@ -381,13 +380,6 @@
 				C4EAFA25AD952555FE9EB730 /* libPods-ABFPlayerKitTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		72CAAE0D2091E3BF0079E641 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

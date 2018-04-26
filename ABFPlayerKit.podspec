@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
 
   # s.framework = 'IJKMediaFramework'
   s.frameworks = "AudioToolBox", "AVFoundation","CoreGraphics","CoreMedia","CoreVideo","MediaPlayer","MobileCoreServices","OpenGLES","QuartzCore","UIKit","VideoToolBox"
- 
+
   # s.library   = "iconv"
   s.libraries = "stdc++", "z" , "bz2"
-  s.vendored_frameworks = 'Lib/IJKMediaFramework.framework'
+  s.vendored_frameworks = 'IJKMediaFramework.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
