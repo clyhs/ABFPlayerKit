@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IJKMediaFramework/**"' }
 
   s.source_files  = 'Sources/**/*.{h,m}','IJKMediaFramework.framework/**/*.{h,m}'
-  s.public_header_files = "IJKMediaFramework.framework/Headers/*.h"
+  #s.public_header_files = "IJKMediaFramework.framework/Headers/*.h"
 
   #s.vendored_frameworks = 'IJKMediaFramework.framework'
   #s.preserve_paths =  'IJKMediaFramework.framework/*'
