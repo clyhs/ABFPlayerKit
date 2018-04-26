@@ -88,7 +88,7 @@
 		72CAADC0209184B70079E641 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAADBF209184B70079E641 /* libstdc++.tbd */; };
 		72CAADC2209184BE0079E641 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAADC1209184BE0079E641 /* libz.tbd */; };
 		72CAADC4209184DC0079E641 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAADC3209184DC0079E641 /* libbz2.tbd */; };
-		72CAAE142091FD890079E641 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAAE132091FD890079E641 /* IJKMediaFramework.framework */; };
+		72CAAE16209203B00079E641 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAAE15209203B00079E641 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -189,6 +189,7 @@
 		72CAADC5209185290079E641 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		72CAAE0E2091E3FF0079E641 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = Lib/IJKMediaFramework.framework; sourceTree = "<group>"; };
 		72CAAE132091FD890079E641 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = Sources/Assets/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		72CAAE15209203B00079E641 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = IJKMediaFramework/IJKMediaFramework.framework; sourceTree = "<group>"; };
 		A3BDCC12B759E65C74A07C5B /* Pods-ABFPlayerKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABFPlayerKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABFPlayerKitTests/Pods-ABFPlayerKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5553A26FB1D3A61F835E1E7 /* Pods-ABFPlayerKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABFPlayerKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABFPlayerKitTests/Pods-ABFPlayerKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		C4EAFA25AD952555FE9EB730 /* libPods-ABFPlayerKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABFPlayerKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,7 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72CAAE142091FD890079E641 /* IJKMediaFramework.framework in Frameworks */,
+				72CAAE16209203B00079E641 /* IJKMediaFramework.framework in Frameworks */,
 				72CAADC4209184DC0079E641 /* libbz2.tbd in Frameworks */,
 				72CAADC2209184BE0079E641 /* libz.tbd in Frameworks */,
 				72CAADC0209184B70079E641 /* libstdc++.tbd in Frameworks */,
@@ -267,7 +268,6 @@
 		72CAAD112091803C0079E641 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				72CAAE122091FD5F0079E641 /* Assets */,
 				72CAADA5209183D30079E641 /* MMMaterialDesignSpinner.h */,
 				72CAADA4209183D30079E641 /* MMMaterialDesignSpinner.m */,
 				72CAAD99209183C40079E641 /* ABFPlayerView.h */,
@@ -365,6 +365,7 @@
 				72CAADC5209185290079E641 /* IJKMediaFramework.framework */,
 				72CAAE0E2091E3FF0079E641 /* IJKMediaFramework.framework */,
 				72CAAE132091FD890079E641 /* IJKMediaFramework.framework */,
+				72CAAE15209203B00079E641 /* IJKMediaFramework.framework */,
 				72CAADC3209184DC0079E641 /* libbz2.tbd */,
 				72CAADC1209184BE0079E641 /* libz.tbd */,
 				72CAADBF209184B70079E641 /* libstdc++.tbd */,
@@ -383,13 +384,6 @@
 				C4EAFA25AD952555FE9EB730 /* libPods-ABFPlayerKitTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		72CAAE122091FD5F0079E641 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -756,6 +750,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Lib",
 					"$(PROJECT_DIR)/Sources/Assets",
+					"$(PROJECT_DIR)/IJKMediaFramework",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -787,6 +782,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Lib",
 					"$(PROJECT_DIR)/Sources/Assets",
+					"$(PROJECT_DIR)/IJKMediaFramework",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
