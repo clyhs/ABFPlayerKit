@@ -51,10 +51,10 @@
 
 ### 效果图
 <div align="center">
-<img src="https://github.com/clyhs/ABigFishPlayer/blob/master/images/1.png" width="250" style="margin:10px 10px;" >
-<img src="https://github.com/clyhs/ABigFishPlayer/blob/master/images/2.png" width
+<img src="https://github.com/clyhs/ABFPlayerKit/blob/master/images/1.png" width="250" style="margin:10px 10px;" >
+<img src="https://github.com/clyhs/ABFPlayerKit/blob/master/images/2.png" width
 ="250" style="margin:10px 10px;" >
-<img src="https://github.com/clyhs/ABigFishPlayer/blob/master/images/3.png" width
+<img src="https://github.com/clyhs/ABFPlayerKit/blob/master/images/3.png" width
 ="250" style="margin:10px 10px;">
 
 </div>
