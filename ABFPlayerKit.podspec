@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
  
   # s.library   = "iconv"
   s.libraries = "stdc++", "z" , "bz2"
-  s.vendored_frameworks = 'IJKMediaFramework.framework'
+  s.vendored_frameworks = 'Lib/IJKMediaFramework.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
