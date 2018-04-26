@@ -1,4 +1,4 @@
-# ABigFishPlayer
+# ABFPlayerKit
 
 ### 引用第三方技术包括：
 * ijkplayer
