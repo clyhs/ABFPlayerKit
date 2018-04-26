@@ -17,6 +17,9 @@
 		72CAADE3209188450079E641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAADE2209188450079E641 /* main.m */; };
 		72CAADED209188450079E641 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAADEC209188450079E641 /* ExampleTests.m */; };
 		72CAADF8209188450079E641 /* ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAADF7209188450079E641 /* ExampleUITests.m */; };
+		72CAAE0A20918BAE0079E641 /* tvs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72CAAE0720918BAD0079E641 /* tvs.plist */; };
+		72CAAE0B20918BAE0079E641 /* TVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAAE0820918BAD0079E641 /* TVTableViewCell.m */; };
+		72CAAE0C20918BAE0079E641 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAAE0920918BAD0079E641 /* PlayerViewController.m */; };
 		809038267806E90EA96F8347 /* libPods-ExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E805EE0F47BA880A04DAE3 /* libPods-ExampleUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,11 @@
 		72CAADF3209188450079E641 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CAADF7209188450079E641 /* ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUITests.m; sourceTree = "<group>"; };
 		72CAADF9209188450079E641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CAAE0520918BAD0079E641 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		72CAAE0620918BAD0079E641 /* TVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVTableViewCell.h; sourceTree = "<group>"; };
+		72CAAE0720918BAD0079E641 /* tvs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tvs.plist; sourceTree = "<group>"; };
+		72CAAE0820918BAD0079E641 /* TVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVTableViewCell.m; sourceTree = "<group>"; };
+		72CAAE0920918BAD0079E641 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		7682BBEC1B69FAFBBF2D3C1B /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A403A84163B09184457D6750 /* Pods-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleUITests/Pods-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BF31CB6BC7A438B1069F0A8E /* Pods-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleUITests/Pods-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +126,11 @@
 		72CAADD2209188430079E641 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				72CAAE0520918BAD0079E641 /* PlayerViewController.h */,
+				72CAAE0920918BAD0079E641 /* PlayerViewController.m */,
+				72CAAE0720918BAD0079E641 /* tvs.plist */,
+				72CAAE0620918BAD0079E641 /* TVTableViewCell.h */,
+				72CAAE0820918BAD0079E641 /* TVTableViewCell.m */,
 				72CAADD3209188430079E641 /* AppDelegate.h */,
 				72CAADD4209188430079E641 /* AppDelegate.m */,
 				72CAADD6209188430079E641 /* ViewController.h */,
@@ -279,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72CAAE0A20918BAE0079E641 /* tvs.plist in Resources */,
 				72CAADE0209188450079E641 /* LaunchScreen.storyboard in Resources */,
 				72CAADDD209188450079E641 /* Assets.xcassets in Resources */,
 				72CAADDB209188430079E641 /* Main.storyboard in Resources */,
@@ -456,8 +470,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				72CAADD8209188430079E641 /* ViewController.m in Sources */,
+				72CAAE0B20918BAE0079E641 /* TVTableViewCell.m in Sources */,
 				72CAADE3209188450079E641 /* main.m in Sources */,
 				72CAADD5209188430079E641 /* AppDelegate.m in Sources */,
+				72CAAE0C20918BAE0079E641 /* PlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,7 +646,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BGHQWG8NV;
 				INFOPLIST_FILE = Example/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clyhs.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -645,7 +664,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BGHQWG8NV;
 				INFOPLIST_FILE = Example/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clyhs.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -660,7 +682,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BGHQWG8NV;
 				INFOPLIST_FILE = ExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clyhs.ExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -676,7 +702,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BGHQWG8NV;
 				INFOPLIST_FILE = ExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clyhs.ExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -691,7 +721,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BGHQWG8NV;
 				INFOPLIST_FILE = ExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clyhs.ExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -706,7 +740,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BGHQWG8NV;
 				INFOPLIST_FILE = ExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clyhs.ExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

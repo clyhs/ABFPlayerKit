@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>cctv1</string>
+		<key>url_1</key>
+		<string>http://183.252.176.13/ott.js.chinamobile.com/PLTV/88888888/224/3221225922/index.m3u8</string>
+		<key>url_2</key>
+		<string>http://live.quanmin.tv/live/cctv1hd/playlist.m3u8</string>
+		<key>url_3</key>
+		<string>http://223.82.250.72/live/hdcctv01/1.m3u8</string>
+	</dict>
+	<dict>
+		<key>url_3</key>
+		<string>http://223.82.250.72/live/hdcctv01/1.m3u8</string>
+		<key>name</key>
+		<string>凤凰卫视</string>
+		<key>url_1</key>
+		<string>http://183.252.176.13/ott.js.chinamobile.com/PLTV/88888888/224/3221225900/index.m3u8</string>
+		<key>url_2</key>
+		<string>http://117.169.120.142:8080/wh7f454c46tw1875988299_1988371409/ysten-businessmobile/live/fhzixun/dujuejiami.m3u8</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>香港电影</string>
+		<key>url_1</key>
+		<string>http://rotation.vod.zlive.cc/channel/1086.m3u8</string>
+		<key>url_2</key>
+		<string>http://acm.gg/bili.m3u8?id=57672</string>
+		<key>url_3</key>
+		<string>http://webapi.abigfish.org/static/upload/video/2017-12-09/20171209102745.mp4</string>
+	</dict>
+</array>
+</plist>

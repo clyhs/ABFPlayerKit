@@ -1,15 +1,14 @@
 //
 //  ViewController.h
-//  Example
+//  ABigFishPlayer
 //
-//  Created by 陈立宇 on 2018/4/26.
+//  Created by 陈立宇 on 2018/3/24.
 //  Copyright © 2018年 陈立宇. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
 
 @end
 
