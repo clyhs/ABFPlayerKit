@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.frameworks = "AudioToolBox", "AVFoundation","CoreGraphics","CoreMedia","CoreVideo","MediaPlayer","MobileCoreServices","OpenGLES","QuartzCore","UIKit","VideoToolBox"
   s.libraries = "stdc++", "z" , "bz2"
 # s.vendored_frameworks = 'Framework/IJKMediaFramework.framework'
-
+  s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ABFPlayerKit/"' }
   s.subspec 'IJKMediaFramework' do |sc|
     sc.source_files = 'IJKMediaFramework.framework/Headers/*.{h}'
     sc.vendored_frameworks = 'IJKMediaFramework.framework'
