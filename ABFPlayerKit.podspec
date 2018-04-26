@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = "AudioToolBox", "AVFoundation","CoreGraphics","CoreMedia","CoreVideo","MediaPlayer","MobileCoreServices","OpenGLES","QuartzCore","UIKit","VideoToolBox"
   s.libraries = "stdc++", "z" , "bz2"
-  s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IJKMediaFramework/**"' }
+# s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IJKMediaFramework/**"' }
 
   s.source_files  = 'Sources/**/*.{h,m}','IJKMediaFramework.framework/**/*.{h,m}'
   #s.public_header_files = "IJKMediaFramework.framework/Headers/*.h"
@@ -32,4 +32,5 @@ Pod::Spec.new do |s|
 
   s.dependency "Masonry"
   s.dependency 'SDWebImage','~> 3.7.3'
+
 end
