@@ -10,17 +10,16 @@ Pod::Spec.new do |s|
   s.author             = { "clyhs" => "clygd@126.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/clyhs/ABFPlayerKit.git", :tag => "#{s.version}" }
-  s.source_files  = 'Sources/**/*.{h,m}'
-  s.resources = 'Resources/*.png'
+
+
   s.frameworks = "AudioToolBox", "AVFoundation","CoreGraphics","CoreMedia","CoreVideo","MediaPlayer","MobileCoreServices","OpenGLES","QuartzCore","UIKit","VideoToolBox"
   s.libraries = "stdc++", "z" , "bz2"
-# s.vendored_frameworks = 'Framework/IJKMediaFramework.framework'
   s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ABFPlayerKit/"' }
-  s.subspec 'IJKMediaFramework' do |sc|
-    sc.source_files = 'IJKMediaFramework.framework/Headers/*.{h}'
-    sc.vendored_frameworks = 'IJKMediaFramework.framework'
-    sc.preserve_paths =  'IJKMediaFramework.framework/*'
-  end
+
+  s.source_files  = 'Sources/**/*.{h,m}','IJKMediaFramework.framework/Headers/*.{h}'
+  s.vendored_frameworks = 'IJKMediaFramework.framework'
+  s.preserve_paths =  'IJKMediaFramework.framework/*'
+  s.resources = 'Resources/*.png','IJKMediaFramework.framework'
 
   s.dependency "Masonry"
   s.dependency 'SDWebImage','~> 3.7.3'
