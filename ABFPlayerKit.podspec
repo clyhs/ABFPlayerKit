@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
 
-  s.source_files  = 'Sources/**/*.{h,m}','IJKMediaFramework/**/*.{h,m}'
+  s.source_files  = 'Sources/**/*.{h,m}'
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.resources = 'Resources/*.png'
@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   s.libraries = "stdc++", "z" , "bz2"
-  s.vendored_frameworks = 'IJKMediaFramework.framework'
+  s.vendored_frameworks = 'Sources/Assets/IJKMediaFramework.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
